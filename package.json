@@ -1,0 +1,25 @@
+{
+  "name": "mern-nextjs-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Abdullah Al Hadi",
+  "license": "MIT",
+  "scripts": {
+    "mern:server": "ts-node-dev  --transpile-only src/mern-server.ts",
+    "next:app": "ts-node-dev  --transpile-only src/next-cli.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "inquirer": "^12.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/express": "^4.17.21",
+    "eslint": "^9.16.0",
+    "prettier": "^3.4.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^8.18.0"
+  }
+}
